@@ -41,7 +41,7 @@ class ViewController: UIViewController {
             arr.append(url);
         }
         
-        var activity = UIActivityViewController(activityItems: arr, applicationActivities: nil);
+        let activity = UIActivityViewController(activityItems: arr, applicationActivities: nil);
         
         self.present(activity, animated: true, completion: nil);
     }
